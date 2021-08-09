@@ -9,10 +9,10 @@ Trường Đại học Mở TP.HCM
 
 Câu lệnh để cài Entity Framwork từ **Nuget Console**
 
-`PM> Install-Package Microsoft.EntityFrameworkCore`
+<pre> 
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
 
-`PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer`
-
-`PM> Install-Package Microsoft.EntityFrameworkCore.Tools`
-
-`PM> Scaffold-DbContext "Data Source=.\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa;Password=Password123;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force`
+Scaffold-DbContext "Data Source=.\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa;Password=Password123;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+</pre>
