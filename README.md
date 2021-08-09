@@ -15,4 +15,4 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 Scaffold-DbContext "Data Source=.\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa;Password=Password123;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
 </pre>
 
-`$ Install-Package Microsoft.EntityFrameworkCore
+`PM Install-Package Microsoft.EntityFrameworkCore`
