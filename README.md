@@ -8,11 +8,8 @@ Trường Đại học Mở TP.HCM
 * Project này sử dụng Entity Framework Core, kết nối đến database [Northwind](https://laptrinhthietde.wordpress.com/2017/08/09/co-so-du-lieu-northwind/) của Mircosoft
 
 Câu lệnh để cài Entity Framwork từ **Nuget Console**
-<pre>
-Install-Package Microsoft.EntityFrameworkCore
-Install-Package Microsoft.EntityFrameworkCore.SqlServer
-Install-Package Microsoft.EntityFrameworkCore.Tools
-Scaffold-DbContext "Data Source=.\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa;Password=Password123;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
-</pre>
 
 `PM> Install-Package Microsoft.EntityFrameworkCore`
+`PM> Install-Package Microsoft.EntityFrameworkCore.SqlServer`
+`PM> Install-Package Microsoft.EntityFrameworkCore.Tools`
+`PM> Scaffold-DbContext "Data Source=.\SQLEXPRESS;Initial Catalog=Northwind;Persist Security Info=True;User ID=sa;Password=Password123;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force`
